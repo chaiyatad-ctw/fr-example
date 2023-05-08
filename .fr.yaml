@@ -4,10 +4,10 @@ projects:
  - name: "project-A"
    config:
      - type: "Default"
-       path: "./project-A/version.go"
+       path: "example/project-A/VERSION"
  - name: "project-B"
    config:
      - type: "Default"
-       path: "./project-B/version.go"
+       path: "example/project-B/VERSION"
      - type: "PackageJSON"
-       path: "./project-B/package.json"
+       path: "example/project-B/package.json"
