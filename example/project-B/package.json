@@ -1,0 +1,13 @@
+{
+  "name": "project-B",
+  "version": "0.0.8",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:type": "tsc --project ./tsconfig.json"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,13 @@
+version: 2
+
+projects:
+ - name: "project-A"
+   config:
+     - type: "Default"
+       path: "./project-A/version.go"
+ - name: "project-B"
+   config:
+     - type: "Default"
+       path: "./project-B/version.go"
+     - type: "PackageJSON"
+       path: "./project-B/package.json"
